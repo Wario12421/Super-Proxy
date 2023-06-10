@@ -1,0 +1,43 @@
+
+<!DOCTYPE html><html lang="en-us"><head><script src="/web/client_hook" data-config="eyJwcmVmaXgiOiIvd2ViLyIsInVybCI6Imh0dHBzOi8vd3d3LmRyaWZ0ZWQuY29tL21lZGlhL2dhbWVzL2RoL2luZGV4Lmh0bWwifQ=="></script>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" id="viewport" content="width=device-width, minimum-scale=1.0">
+<title>Drift Hunters</title>
+<link rel="stylesheet" href="/web/_aHR0cHM6Ly93d3cuZHJpZnRlZC5jb20=_/media/games/assets/css/style.css">
+<script src="/web/_aHR0cHM6Ly93d3cuZHJpZnRlZC5jb20=_/media/games/assets/js/UnityProgress.js"></script>
+<script src="/web/_aHR0cHM6Ly93d3cuZHJpZnRlZC5jb20=_/media/games/assets/js/UnityLoader.js"></script>
+<script>
+      var gameInstance;
+      function invokeGame () {
+        gameInstance = UnityLoader.instantiate('gameContainer', localStorage.getItem('darkMode') ? 'Build/drifted-dark.json' : 'Build/drifted.json', {onProgress: UnityProgress});
+      }
+    </script>
+<script src="/web/_aHR0cHM6Ly93d3cuZHJpZnRlZC5jb20=_/media/games/assets/js/UnityPostRun.js"></script>
+</head>
+<body class="drift-hunters disable-ad-rotation">
+<div id="webgl-content" class="webgl-content">
+<div class="row billboard-placeholder-wrapper">
+<div id="billboard-placeholder"></div>
+</div>
+<div class="game-wrapper">
+<div id="gameContainer"></div>
+<div class="footer show">
+<div class="webgl-logo"></div>
+<div class="bug tooltip" onclick="window.parent.location.href='https://www.drifted.com/contact/'; return false;"></div>
+<div class="category tooltip" onclick="window.parent.location.href='https://www.drifted.com/drifting-games/'; return false;"></div>
+<div class="fullscreen tooltip" onclick="gameInstance.SetFullscreen(1);"></div>
+<div id="btn-installer" class="hide install-pwa tooltip"></div>
+<div class="title">Drift Hunters</div>
+</div>
+<span class="upsell">Play more <a href="/web/_aHR0cHM6Ly93d3cuZHJpZnRlZC5jb20=_/games">games</a> at drifted.com</span>
+</div>
+<div class="sidebar-placeholder-wrapper">
+<div id="sidebar-placeholder"></div>
+</div>
+</div>
+<script type="text/javascript">
+      fnInitPWAAppInstaller();
+    </script>
+
+</body></html>
